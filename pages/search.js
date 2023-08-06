@@ -22,7 +22,7 @@ export default function AdvancedSearch() {
     });
     const router = useRouter();
 
-    // Function takes the form data (ie: the data parameter) and generates a queryString
+    //Function takes the form data (ie: the data parameter) and generates a queryString
     async function submitForm(data){
         let queryString = "";
         queryString += `${encodeURIComponent(data.searchBy)}=true`;
